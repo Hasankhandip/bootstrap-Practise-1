@@ -1,0 +1,49 @@
+// global scss start
+.main-btn {
+  color: #fff;
+  background-color: $red;
+  border-color: $red;
+  line-height: 1.1;
+  font-size: 16px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: 0.4s;
+  &:hover {
+    background-color: $white;
+    color: $btn-color;
+    border-color: $btn-color;
+  }
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: $red;
+    border-color: $red;
+    color: #fff;
+  }
+}
+.p-text-white {
+  color: #fff;
+}
+.p-text-black {
+  color: #4c4f57;
+}
+// global scss end
+
+// padding scss start
+.ptb-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+// padding scss end
+
+// margin scss start
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+// margin scss end
