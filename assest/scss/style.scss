@@ -243,20 +243,3 @@
 }
 // service-section scss end
 
-// about-section scss start
-.about-section {
-  background-color: $section-bg-2;
-}
-.accordion {
-  margin-top: 60px;
-}
-.accordion-button:focus {
-  box-shadow: none;
-}
-.accordion-item {
-  border-radius: 0 !important;
-}
-.accordion-button {
-  font-size: 20px;
-}
-// about-section scss end
